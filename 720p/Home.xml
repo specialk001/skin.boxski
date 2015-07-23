@@ -15,7 +15,7 @@
 				<height>45</height>
 				<label>31003</label>
 				<font>-</font>
-				<onclick>Powerdown()</onclick>
+				<onclick>ActivateWindow(ShutdownMenu)</onclick>
 				<texturefocus border="5">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="5">floor_button.png</texturenofocus>
 				<onleft>21</onleft>
@@ -272,16 +272,6 @@
 				<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300"/>
 				<effect type="fade" start="100" end="0" time="300"/>
 			</animation>
-			<control type="image">
-				<description>Background End image</description>
-				<left>0</left>
-				<top>0</top>
-				<width>35</width>
-				<height>35</height>
-				<colordiffuse>CCFFFFFF</colordiffuse>
-				<texture flipy="true" border="0,5,0,0" flipx="true">HomeSubEnd.png</texture>
-				<animation effect="slide" start="0,0" end="145,0" time="0" condition="!System.HasAddon(script.globalsearch)">Conditional</animation>
-			</control>
 			<control type="group" id="600">
 				<left>180</left>
 				<onup>9003</onup>
