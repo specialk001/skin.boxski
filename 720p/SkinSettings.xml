@@ -510,7 +510,7 @@
 						<selected>Skin.HasSetting(HomeMenuNoNetflixButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<visible>!System.Platform.Android</visible>
+						<visible>System.Platform.Android</visible>
 					</control>
 					<control type="radiobutton" id="221">
 						<description>Hide YouTube Button</description>
