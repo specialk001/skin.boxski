@@ -472,6 +472,19 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
+					<control type="radiobutton" id="225">
+						<description>Hide Phoenix Button</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>Hide - Pheonix</label>
+						<onclick>Skin.ToggleSetting(HomeMenuNoPhoenixButton)</onclick>
+						<selected>Skin.HasSetting(HomeMenuNoPhoenixButton)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+					</control>
 					<control type="radiobutton" id="228">
 						<description>Hide Genesis Button</description>
 						<width>750</width>
@@ -497,19 +510,7 @@
 						<selected>Skin.HasSetting(HomeMenuNoNetflixButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-					</control>
-					<control type="radiobutton" id="225">
-						<description>Hide Phoenix Button</description>
-						<width>750</width>
-						<height>40</height>
-						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<label>Hide - Pheonix</label>
-						<onclick>Skin.ToggleSetting(HomeMenuNoPhoenixButton)</onclick>
-						<selected>Skin.HasSetting(HomeMenuNoPhoenixButton)</selected>
-						<texturefocus>MenuItemFO.png</texturefocus>
-						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<visible>!System.Platform.Android</visible>
 					</control>
 					<control type="radiobutton" id="221">
 						<description>Hide YouTube Button</description>
@@ -534,19 +535,6 @@
 						<label>Hide - Sports Devil</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNoSportsDevilButton)</onclick>
 						<selected>Skin.HasSetting(HomeMenuNoSportsDevilButton)</selected>
-						<texturefocus>MenuItemFO.png</texturefocus>
-						<texturenofocus>MenuItemNF.png</texturenofocus>
-					</control>
-					<control type="radiobutton" id="226">
-						<description>Hide Programs Button</description>
-						<width>750</width>
-						<height>40</height>
-						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<label>$LOCALIZE[31111] - $LOCALIZE[0]</label>
-						<onclick>Skin.ToggleSetting(HomeMenuNoProgramsButton)</onclick>
-						<selected>Skin.HasSetting(HomeMenuNoProgramsButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
