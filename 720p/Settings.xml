@@ -156,7 +156,7 @@
 					<item id="4">
 						<label>Network Manager</label>
 						<label2>Network Manager</label2>
-						<onclick>RunAddon(script.module.osmcsetting.networking)</onclick>
+						<onclick>RunAddon(service.osmc.settings)</onclick>
 						<icon>-</icon>
 						<visible>System.Platform.Linux.RaspberryPi</visible>
 					</item>
