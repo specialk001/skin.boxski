@@ -680,38 +680,38 @@
 						<onclick>RunAddon(plugin.video.phstreams)</onclick>
 						<icon>-</icon>
 						<thumb>-</thumb>
-						<visible>!Skin.HasSetting(HomeMenuNoPhoenixButton)</visible>
+						<visible>Skin.HasSetting(HomeMenuShowPhoenixButton)</visible>
 					</item>
 					<item id="1012">
 						<label>Genesis</label>
 						<onclick>RunAddon(plugin.video.genesis)</onclick>
 						<icon>-</icon>
 						<thumb>-</thumb>
-						<visible>!Skin.HasSetting(HomeMenuNoGenesisButton)</visible>
+						<visible>Skin.HasSetting(HomeMenuShowGenesisButton)</visible>
 					</item>
 					<item id="1013">
 						<label>Netflix</label>
 						<onclick>StartAndroidActivity(com.netflix.mediaclient)</onclick>
 						<icon>-</icon>
 						<thumb>-</thumb>
-						<visible>!Skin.HasSetting(HomeMenuNoNetflixButton)&System.Platform.Android</visible>
+						<visible>System.Platform.Android&Skin.HasSetting(HomeMenuShowNetflixButton)</visible>
 					</item>
 					<item id="1014">
 						<label>YouTube</label>
 						<onclick>RunAddon(plugin.video.youtube)</onclick>
 						<icon>-</icon>
 						<thumb>-</thumb>
-						<visible>!Skin.HasSetting(HomeMenuNoYouTubeButton)</visible>
+						<visible>Skin.HasSetting(HomeMenuShowYouTubeButton)</visible>
 					</item>
 					<item id="1015">
 						<label>Sports Devil</label>
 						<onclick>RunAddon(plugin.video.SportsDevil)</onclick>
 						<icon>-</icon>
 						<thumb>-</thumb>
-						<visible>!Skin.HasSetting(HomeMenuNoSportsDevilButton)</visible>
+						<visible>Skin.HasSetting(HomeMenuShowSportsDevilButton)</visible>
 					</item>
 					<item id="5">
-						<label>31959</label>
+						<label>Settings</label>
 						<onclick>ActivateWindow(Settings)</onclick>
 						<icon>-</icon>
 						<thumb>-</thumb>

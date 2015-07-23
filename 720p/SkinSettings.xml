@@ -473,68 +473,68 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
 					<control type="radiobutton" id="225">
-						<description>Hide Phoenix Button</description>
+						<description>Show Phoenix Button</description>
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<label>Hide - Pheonix</label>
-						<onclick>Skin.ToggleSetting(HomeMenuNoPhoenixButton)</onclick>
-						<selected>Skin.HasSetting(HomeMenuNoPhoenixButton)</selected>
+						<label>Show - Pheonix</label>
+						<onclick>Skin.ToggleSetting(HomeMenuShowPhoenixButton)</onclick>
+						<selected>Skin.HasSetting(HomeMenuShowPhoenixButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
 					<control type="radiobutton" id="228">
-						<description>Hide Genesis Button</description>
+						<description>Show Genesis Button</description>
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<label>Hide - Genesis</label>
-						<onclick>Skin.ToggleSetting(HomeMenuNoGenesisButton)</onclick>
-						<selected>Skin.HasSetting(HomeMenuNoGenesisButton)</selected>
+						<label>Show - Genesis</label>
+						<onclick>Skin.ToggleSetting(HomeMenuShowGenesisButton)</onclick>
+						<selected>Skin.HasSetting(HomeMenuShowGenesisButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
 					<control type="radiobutton" id="230">
-						<description>Hide Netflix Button</description>
+						<description>Show Netflix Button</description>
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<label>Hide - Netflix</label>
-						<onclick>Skin.ToggleSetting(HomeMenuNoNetflixButton)</onclick>
-						<selected>Skin.HasSetting(HomeMenuNoNetflixButton)</selected>
+						<label>Show - Netflix</label>
+						<onclick>Skin.ToggleSetting(HomeMenuShowNetflixButton)</onclick>
+						<selected>Skin.HasSetting(HomeMenuShowNetflixButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<visible>System.Platform.Android</visible>
 					</control>
 					<control type="radiobutton" id="221">
-						<description>Hide YouTube Button</description>
+						<description>Show YouTube Button</description>
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<label>Hide - Youtube</label>
-						<onclick>Skin.ToggleSetting(HomeMenuNoYouTubeButton)</onclick>
-						<selected>Skin.HasSetting(HomeMenuNoYouTubeButton)</selected>
+						<label>Show - Youtube</label>
+						<onclick>Skin.ToggleSetting(HomeMenuShowYouTubeButton)</onclick>
+						<selected>Skin.HasSetting(HomeMenuShowYouTubeButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
 					<control type="radiobutton" id="222">
-						<description>Hide Sports Devil Button</description>
+						<description>Show Sports Devil Button</description>
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<label>Hide - Sports Devil</label>
-						<onclick>Skin.ToggleSetting(HomeMenuNoSportsDevilButton)</onclick>
-						<selected>Skin.HasSetting(HomeMenuNoSportsDevilButton)</selected>
+						<label>Show - Sports Devil</label>
+						<onclick>Skin.ToggleSetting(HomeMenuShowSportsDevilButton)</onclick>
+						<selected>Skin.HasSetting(HomeMenuShowSportsDevilButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>

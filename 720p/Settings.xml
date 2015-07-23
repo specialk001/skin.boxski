@@ -147,8 +147,8 @@
 						<icon>-</icon>
 					</item>
 					<item id="3">
-						<label>31957</label>
-						<label2>31957</label2>
+						<label>Programs</label>
+						<label2>Programs</label2>
 						<onclick condition="!System.Platform.Android">ActivateWindow(Programs,Addons,return)</onclick>
 						<onclick condition="System.Platform.Android">ActivateWindow(Programs)</onclick>
 						<icon>-</icon>
