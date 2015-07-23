@@ -6,35 +6,34 @@
 	<onunload condition="Control.HasFocus(9000) + Container(9000).Hasfocus(2)">ClearProperty(VideosDirectLink)</onunload>
 	<controls>
 		<include>CommonBackground</include>
-		
-		<control type="button" id="20">
-				<description>Power push button</description>
-				<left>20</left>
-				<top>20</top>
-				<width>45</width>
-				<height>45</height>
-				<label>31003</label>
-				<font>-</font>
-				<onclick>ActivateWindow(ShutdownMenu)</onclick>
-				<texturefocus border="5">floor_buttonFO.png</texturefocus>
-				<texturenofocus border="5">floor_button.png</texturenofocus>
-				<onleft>21</onleft>
-				<onright>21</onright>
-				<onup>9002</onup>
-				<ondown>9003</ondown>
-				<visible>System.Platform.Linux.RaspberryPi</visible>
+		<control type="group">
+			<visible>System.Platform.Linux.RaspberryPi</visible>
+			<control type="button" id="20">
+					<description>Power push button</description>
+					<left>20</left>
+					<top>20</top>
+					<width>45</width>
+					<height>45</height>
+					<label>31003</label>
+					<font>-</font>
+					<onclick>Powerdown()</onclick>
+					<texturefocus border="5">floor_buttonFO.png</texturefocus>
+					<texturenofocus border="5">floor_button.png</texturenofocus>
+					<onleft>21</onleft>
+					<onright>21</onright>
+					<onup>9002</onup>
+					<ondown>9003</ondown>
+				</control>
+				<control type="image">
+					<description>Power Icon</description>
+					<left>25</left>
+					<top>25</top>
+					<width>35</width>
+					<height>35</height>
+					<aspectratio>keep</aspectratio>
+					<texture>icon_power.png</texture>
+				</control>
 			</control>
-			<control type="image">
-				<description>Power Icon</description>
-				<left>25</left>
-				<top>25</top>
-				<width>35</width>
-				<height>35</height>
-				<aspectratio>keep</aspectratio>
-				<texture>icon_power.png</texture>
-				<visible>System.Platform.Linux.RaspberryPi</visible>
-			</control>
-
 		<!-- Video Info -->
 		<control type="group">
 			<left>0</left>
@@ -272,6 +271,17 @@
 				<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300"/>
 				<effect type="fade" start="100" end="0" time="300"/>
 			</animation>
+			<control type="image">
+				<description>Background End image</description>
+				<left>0</left>
+				<top>0</top>
+				<width>35</width>
+				<height>35</height>
+				<colordiffuse>CCFFFFFF</colordiffuse>
+				<texture flipy="true" border="0,5,0,0" flipx="true">HomeSubEnd.png</texture>
+				<animation effect="slide" start="0,0" end="145,0" time="0" condition="!System.HasAddon(script.globalsearch)">Conditional</animation>
+				<visible>Player.HasMedia</visible>
+			</control>
 			<control type="group" id="600">
 				<left>180</left>
 				<onup>9003</onup>
