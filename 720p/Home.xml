@@ -722,7 +722,7 @@
 						<onclick>StartAndroidActivity(com.netflix.mediaclient)</onclick>
 						<icon>-</icon>
 						<thumb>-</thumb>
-						<visible>System.Platform.Android&Skin.HasSetting(HomeMenuShowNetflixButton)</visible>
+						<visible>Skin.HasSetting(HomeMenuShowNetflixButton)</visible>
 					</item>
 					<item id="1014">
 						<label>YouTube</label>
