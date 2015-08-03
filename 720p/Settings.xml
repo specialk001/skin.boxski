@@ -169,7 +169,7 @@
 					<item id="5">
 						<label>Android Settings</label>
 						<label2>Android Settings</label2>
-						<onclick>StartAndroidActivity(settings)</onclick>
+						<onclick>StartAndroidActivity(android.provider.Settings)</onclick>
 						<icon>-</icon>
 						<visible>System.Platform.Android</visible>
 					</item>
