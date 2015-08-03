@@ -146,6 +146,12 @@
 						<onclick>ActivateWindow(SystemSettings)</onclick>
 						<icon>-</icon>
 					</item>
+					<item id="6">
+						<label>Screen Calibration</label>
+						<label2>Screen Calibration</label2>
+						<onclick>ActivateWindow(screencalibration)</onclick>
+						<icon>-</icon>
+					</item>
 					<item id="3">
 						<label>Programs</label>
 						<label2>Programs</label2>
@@ -154,31 +160,25 @@
 						<icon>-</icon>
 					</item>
 					<item id="4">
-						<label>Network Manager</label>
-						<label2>Network Manager</label2>
+						<label>OSMC Settings</label>
+						<label2>OSMC Settings</label2>
 						<onclick>RunAddon(service.osmc.settings)</onclick>
 						<icon>-</icon>
 						<visible>System.Platform.Linux.RaspberryPi</visible>
 					</item>
 					<item id="5">
-						<label>WiFi Manager</label>
-						<label2>Wifi Manager</label2>
-						<onclick>StartAndroidActivity(org.kman.WifiManager)</onclick>
+						<label>Android Settings</label>
+						<label2>Android Settings</label2>
+						<onclick>StartAndroidActivity(settings)</onclick>
 						<icon>-</icon>
 						<visible>System.Platform.Android</visible>
 					</item>
-					<item id="6">
+					<item id="7">
 						<label>Speed Test</label>
 						<label2>Speed Test</label2>
 						<onclick>StartAndroidActivity(org.zwanoo.android.speedtest)</onclick>
 						<icon>-</icon>
 						<visible>System.Platform.Android</visible>
-					</item>
-					<item id="7">
-						<label>Screen Calibration</label>
-						<label2>Screen Calibration</label2>
-						<onclick>ActivateWindow(screencalibration)</onclick>
-						<icon>-</icon>
 					</item>
 				</content>
 			</control>
