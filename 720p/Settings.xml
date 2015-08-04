@@ -167,8 +167,8 @@
 						<visible>System.Platform.Linux.RaspberryPi</visible>
 					</item>
 					<item id="5">
-						<label>WiFi Manager</label>
-						<label2>WiFi Manager</label2>
+						<label>WiFiManager</label>
+						<label2>WiFiManager</label2>
 						<onclick>StartAndroidActivity(org.kman.WifiManager)</onclick>
 						<icon>-</icon>
 						<visible>System.Platform.Android</visible>
