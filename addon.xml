@@ -6,12 +6,6 @@
   provider-name="Boxski">
   <requires>
     <import addon="xbmc.gui" version="5.3.0"/>
-	<import addon="superrepo.kodi.helix.video" version="0.7.03"/>
-	<import addon="plugin.video.phstreams" version="2.5.1"/>
-    <import addon="plugin.video.genesis" version="4.8.4"/>
-    <import addon="plugin.video.SportsDevil" version="1.8.8.0"/>
-    <import addon="plugin.video.youtube" version="5.1.7"/>
-    <import addon="script.keymap" version="1.0.9"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
